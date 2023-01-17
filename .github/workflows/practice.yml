@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print out message
-      - run: echo "Workflow works"
+        run: echo "Workflow works"
