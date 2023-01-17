@@ -1,0 +1,12 @@
+name: workflow check
+
+on: [push]
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+     - name: run message
+      run: echo "Commit was successful!"
+     - name: List workspace
+       run:  ${{ github.workspace }}
