@@ -6,7 +6,7 @@ jobs:
   run-github-actions:
     runs-on: ubuntu-latest
     steps:
-     - name: run message
-      run: echo "Commit was successful!"
-     - name: List workspace
+      - name: echo a string
+        run: echo "Hello World"
+      - name: List workspace
        run:  ${{ github.workspace }}
