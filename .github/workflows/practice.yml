@@ -1,10 +1,10 @@
-name: workflow check
+name: Workflow
 
 on: [push]
 
 jobs:
   run-github-actions:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu latest
     steps:
       - name: Print out message
-        run: echo "Workflow works"
+        run: echo ""
